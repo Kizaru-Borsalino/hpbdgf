@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Xin Chào</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: rgb(166, 229, 160);
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        h3 {
+            color: #555;
+        }
+        img {
+            margin: 10px; 
+            border-radius: 10px; 
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 2px;
+        }
+        .image-container img {
+            width: 200px; 
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+    <script>
+        function showMessageAndRedirect() {
+            alert("He he, bạn nghĩ giống mình thiệt"); 
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+    <center><h1>Chào mừng bạn đến với nơi này &#128151</h1></center>
+    <center><h3>(Chúc bạn có một trải nghiệm vui vẻ nhé)</h3></center>
+    <center><p>Bạn hãy chọn bức ảnh có cô gái mà bạn nghĩ dễ thương nhất, sau đó nhấp vào <b>OK</b> để đến <b>phần đặc biệt</b> nhé.</p></center>
+    <div class="image-container">
+        <img src="imgs/47-1.jpg" alt="Ảnh 1">
+        <img src="imgs/74-2.jpg" alt="Ảnh 2">
+        <img src="imgs/hg.jpg" alt="Ảnh 3">
+        <img src="imgs/hu.jpg" alt="Ảnh 4">
+        <img src="imgs/jp.jpg" alt="Ảnh 5">
+        <img src="imgs/jp2.jpg" alt="Ảnh 6">
+        <img src="imgs/jp3.jpg" alt="Ảnh 7">
+        <img src="imgs/na.jpg" alt="Ảnh 8">
+        
+        <img src="imgs/mycr.jpg" alt="Phần đặc biệt" onclick="showMessageAndRedirect()">
+
+        <img src="imgs/hthu.png" alt="Ảnh 10">
+        <img src="imgs/dlinh.png" alt="Ảnh 11">
+        <img src="imgs/vy.jpg" alt="Ảnh 12">
+        
+    </div>
+</body>
+</html>
